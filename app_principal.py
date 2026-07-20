@@ -1,9 +1,11 @@
 # app_principal.py
 
+import streamlit as st
+import pandas as pd
 
-def main():
-    print("Sistema Smart Commerce Analytics")
 
+#from componente_datos import IngestorDatos
+#from componente_prediccion import MotorPrediccion
 
-if __name__ == "__main__":
-    main()
+st.set_page_config(page_title="Consola de Componentes Comerciales", layout="wide")
+st.title(" Ensamblador de componentes: Inteligencia de Negocio")
